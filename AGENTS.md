@@ -7,6 +7,7 @@
 - Use `eza` instead of `ls` for listing files and directories
 - Use `bat` instead of `cat` for displaying file contents
 - Use `sd` instead of `sed` for find and replace
+- Use `xan` for CSV file processing
 
 ## Markdown Rendering
 
