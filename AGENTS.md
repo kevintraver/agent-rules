@@ -30,3 +30,8 @@
 ## Development Servers
 
 - Only start development servers when explicitly requested by the user.
+
+## Debugging & Diagnostics
+
+- When asked to "look at logs", "check logs", "debug errors", or diagnose app issues, use the `mcp__dev3000__fix_my_app` tool if available
+- This tool provides browser console logs and network errors from the running app
