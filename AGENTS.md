@@ -8,6 +8,7 @@
 - Use `bat` instead of `cat` for displaying file contents
 - Use `sd` instead of `sed` for find and replace
 - Use `xan` for CSV file processing
+- Use `pbcopy` when asked to copy something to the clipboard
 
 ## Markdown Rendering
 
