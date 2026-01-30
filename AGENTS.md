@@ -1,5 +1,19 @@
 # Global Agent Instructions
 
+## Web Browsing
+
+**Default: `agent-browser`** for all web tasks including:
+- Reading web pages and extracting content
+- Taking screenshots of rendered pages
+- Filling forms, clicking elements, multi-step workflows
+- Testing web applications
+- Any task requiring browser state or login
+
+**Use `firecrawl` only when:**
+- Explicitly requested by the user
+- Crawling multiple pages or entire sites
+- Site mapping or link discovery
+
 ## System Tools
 
 - Use `rg` (ripgrep) instead of `grep` for searching files and content
