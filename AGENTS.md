@@ -14,6 +14,15 @@
 - Crawling multiple pages or entire sites
 - Site mapping or link discovery
 
+## Git Conflicts
+
+If there's a conflict in `package-lock.json`, remove it and regenerate:
+
+```bash
+rm package-lock.json
+npm install
+```
+
 ## System Tools
 
 - Use `rg` (ripgrep) instead of `grep` for searching files and content
