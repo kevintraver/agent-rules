@@ -16,12 +16,7 @@
 
 ## Git Conflicts
 
-If there's a conflict in `package-lock.json`, remove it and regenerate:
-
-```bash
-rm package-lock.json
-npm install
-```
+If there's a conflict in a lockfile (`package-lock.json`, `pnpm-lock.yaml`, `yarn.lock`, `bun.lockb`), remove it and regenerate with the appropriate install command.
 
 ## System Tools
 
