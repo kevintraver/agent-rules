@@ -19,16 +19,6 @@
 
 If there's a conflict in a lockfile (`package-lock.json`, `pnpm-lock.yaml`, `yarn.lock`, `bun.lockb`), remove it and regenerate with the appropriate install command.
 
-## System Tools
-
-- Use `rg` (ripgrep) instead of `grep` for searching files and content
-- Use `fd` instead of `find` for finding files and directories
-- Use `eza` instead of `ls` for listing files and directories
-- Use `bat` instead of `cat` for displaying file contents
-- Use `sd` instead of `sed` for find and replace
-- Use `xan` for CSV file processing
-- Use `pbcopy` when asked to copy something to the clipboard
-
 ## Screenshots & Terminal Output
 
 - When creating CLI/terminal screenshots, use `freeze`
