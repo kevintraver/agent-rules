@@ -9,11 +9,7 @@
 - Testing web applications
 - Any task requiring browser state or login
 
-**Use `firecrawl` only when:**
-
-- Explicitly requested by the user
-- Crawling multiple pages or entire sites
-- Site mapping or link discovery
+For simple URL fetching and lookups, use `WebFetch`. For web searches, use `WebSearch`.
 
 ## Git Conflicts
 
