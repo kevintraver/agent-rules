@@ -5,4 +5,4 @@
 - Lockfile merge conflicts: delete the lockfile and regenerate it with the package manager's install command.
 - TypeScript: don't cast to `any`.
 - Don't add speculative defensive checks or try/catch blocks.
-- To install an MCP server, check the current docs for the tool you're running in: [Claude Code](https://code.claude.com/docs/en/mcp#installing-mcp-servers), [Codex](https://developers.openai.com/codex/mcp), [OpenCode](https://opencode.ai/docs/mcp-servers/).
+- My shell is zsh: never start an unquoted word with `=` (e.g. `echo ====`) — zsh expands `=word` to a command path and aborts the whole command line when it fails. Quote it or use `---` as a separator.
