@@ -7,3 +7,4 @@
 - TypeScript: don't cast to `any`.
 - Don't add speculative defensive checks or try/catch blocks.
 - My shell is zsh: never start an unquoted word with `=` (e.g. `echo ====`) — zsh expands `=word` to a command path and aborts the whole command line when it fails. Quote it or use `---` as a separator.
+- `grilling` skill: ask questions with your native question tool (e.g. `AskUserQuestion`, `request_user_input`) instead of markdown.
