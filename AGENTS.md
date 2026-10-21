@@ -1,7 +1,6 @@
 # Global Agent Instructions
 
 - Use `agent-browser` for anything that needs a real browser (screenshots, forms, logins, testing web apps)
-- If the project runs under `d3k`, that is the dev server: check errors, logs, and browser state with `d3k` (e.g. `d3k errors --context`) instead of asking me to paste output.
 - Install agent skills with `npx skills add <package>` (e.g. `npx skills add vercel-labs/agent-skills`), not by cloning or copying skill folders by hand. Use `npx skills find`, `update`, and `remove` to search for, update, and uninstall them.
 - Lockfile merge conflicts: delete the lockfile and regenerate it with the package manager's install command.
 - TypeScript: don't cast to `any`.
