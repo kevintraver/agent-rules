@@ -6,4 +6,4 @@
 - TypeScript: don't cast to `any`.
 - Don't add speculative defensive checks or try/catch blocks.
 - zsh: don't start an unquoted word with `=` (e.g. `echo ====`). zsh treats `=word` as a command lookup and aborts the whole line if it finds none. Quote it or use `---` instead.
-- `grilling` skill: ask questions with your native question tool (e.g. `AskUserQuestion`, `request_user_input`) instead of markdown.
+- `grilling` and `grill-me` skills: ask questions with your native question tool (e.g. `AskUserQuestion`, `request_user_input`) instead of markdown.
